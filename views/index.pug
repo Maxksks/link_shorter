@@ -1,0 +1,14 @@
+extends layout
+
+block main
+    form.form(name="urlform")
+        div.input-group
+            input#url.inputbox(placeholder="Длинный URL" name="url")
+            button.button Преобразовать
+
+        div.message.hidden
+        div.output-group
+        div.pagination
+
+
+
